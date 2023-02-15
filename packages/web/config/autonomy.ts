@@ -13,13 +13,13 @@ export const SUBQUERY_BACKUP_ENDPOINTS: { [chainId: string]: string } = {
 export const REGISTRY_ADDRESSES: { [chainId: string]: string } = {
   "osmosis-1": "",
   "osmo-test-4":
-    "osmo1zynr26u48vdjrcuxkgswfhcx4zh5lw58qshzycykf33p7fp5y32qkydwrp",
+    "osmo1wuuyz9tlazx96v9vl8q9q9cmqwz7z72kyhcqu0nuauszgkxa572ss60ps4",
 };
 
 export const WRAPPER_ADDRESSES: { [chainId: string]: string } = {
   "osmosis-1": "",
   "osmo-test-4":
-    "osmo1dwpdh2clk7c8csf9ql2xj36336xsryyg4j7622jhaert9htp48gsh8u9ve",
+    "osmo14pcgaxpx4x34fr0dxc5p6fw2aww84wrgycykkctelhv4xrg4ytgq3jjdua",
 };
 export const ENABLE_AUTONOMY = true;
 // process.env.NEXT_PUBLIC_ENABLE_AUTONOMY === "enabled";
