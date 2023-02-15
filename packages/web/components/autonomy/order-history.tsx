@@ -72,7 +72,7 @@ const OrderRow = ({ order }: { order: Order }) => {
         "",
         { gas: "350000" },
         undefined,
-        (e) => console.log(e)
+        (e: any) => console.log(e)
       );
     } catch (err) {
       console.log(err);
